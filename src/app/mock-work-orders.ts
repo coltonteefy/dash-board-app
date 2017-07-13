@@ -1,0 +1,14 @@
+import { WorkOrder } from './workOrder';
+
+export const BARCHARTDATA: Array<WorkOrder> = [
+  {data: [100, 59, 80, 81, 56, 55, 40], label: 'Series A'},
+  {data: [28, 48, 40, 19, 86, 27, 90], label: 'Series B'},
+  {data: [28, 48, 40, 19, 86, 27, 90], label: 'Series C'},
+  {data: [28, 48, 40, 19, 86, 27, 90], label: 'Series D'},
+  {data: [28, 48, 40, 19, 86, 27, 90], label: 'Series E'},
+  {data: [28, 48, 40, 19, 86, 27, 90], label: 'Series F'},
+  {data: [28, 48, 40, 19, 86, 27, 90], label: 'Series G'},
+  {data: [28, 48, 40, 19, 86, 27, 90], label: 'Series H'},
+  {data: [28, 48, 40, 19, 86, 27, 90], label: 'Series I'},
+  {data: [28, 48, 40, 19, 86, 27, 90], label: 'Series J'}
+];

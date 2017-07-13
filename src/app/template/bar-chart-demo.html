@@ -1,0 +1,17 @@
+<div class="row my-4">
+  <div class="col-md-12 card container" style="max-width: 800px;">
+      <div class="card-header">pgws01</div>
+      <div class="card-block">
+        <canvas baseChart
+                [datasets]="barChartData"
+                [labels]="barChartLabels"
+                [options]="barChartOptions"
+                [legend]="barChartLegend"
+                [chartType]="barChartType"
+                (chartHover)="chartHovered($event)"
+                (chartClick)="chartClicked($event)"></canvas>
+      </div>
+      <div class="card-block">
+        <a href="#" class="card-link flex-row-reverse" (click)="randomize()">Advanced(Randomize)</a>
+      </div>
+  </div>
